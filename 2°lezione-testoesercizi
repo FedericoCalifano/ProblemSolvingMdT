@@ -1,0 +1,8 @@
+
+Programmare una Macchina di Turing che, dato un nastro iniziale contenente una sequenza di A e B di lunghezza dispari, termina la sua esecuzione lasciando sul nastro il simbolo in posizione centrale della sequenza iniziale.
+
+                Esempi
+    nastro iniziale   nastro finale
+        AABAB              B
+         AAA               A
+          B                B
