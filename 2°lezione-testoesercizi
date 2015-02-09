@@ -29,7 +29,7 @@ A: Esercizio 1, Gara XII: Notazione unaria [Punti 3]. Un numero intero n è rapp
 3°Esercizio
 B: Esercizio 3, Gara XVII: Calcolo dell'affluenza. [Punti 5] Si scriva un programma per macchina di Turing che, ricevuto in ingresso una configurazione di seggio (ben ordinato o meno), lasci sul nastro un numero decimale rappresentante il numero totale di elettori presenti nella configurazione.
 A: Esercizio 5, Gara XII: La chimica di Turing I [Punti 12]. Usiamo i caratteri H, O, C per rappresentare, rispettivamente, un atomo di idrogeno, ossigeno, carbonio. Una sequenza di queste lettere può quindi rappresentare una molecola (ovviamente è anche possibile scrivere formule che non possono rappresentare una molecola stabile, ma per semplicità non ci poniamo il problema). Nella chimica di Turing si usa una notazione compatta per scrivere queste formula, consistente in un numero decimale preceduto dalla lettera che identifica una molecola. Per esempio, O2 (ossigeno molecolare) sta per OO, CH4 (metano) per CHHHH e H2O (acqua) per HHO. Si scriva un programma per macchina di Turing che, ricevuto in ingresso una formula in notazione compatta, lasci sul nastro la stessa formula in notazione espansa. Si assuma per semplicità che le quantità siano sempre espresse da una sola cifra decimale (da 2 a 9; l'assenza di un numero indica 1).
-                NASTRO INIZIALE                 NASTRO FINALE
+       NASTRO INIZIALE                 NASTRO FINALE
 	    CO2                             COO
 	   H2O2                             HHOO
 	    CH4                            CHHHH
