@@ -1,0 +1,27 @@
+*Degli esercizi tratti dal sito (http://mdt.di.unipi.it/default.aspx) della gara nazionale dell'Università di Pisa si riportano solo il nome e il testo, per gli esempi di input/output si faccia riferimento all'indice dei testi(http://mdt.di.unipi.it/TestiGara/IndiceTesti.aspx).
+
+
+Si propongono alcuni esercizi di verifica della prima lezione:
+
+1°Lezione
+
+Esercizi Base
+
+Esercizio 1, Gara Rotary 2006:
+	Scrivere un programma per macchina di Turing che, ricevuta in ingresso sul nastro 	una stringa composta di A e B, lasci sul nastro la scritta SI se la sequenza 	conteneva un numero uguale di A e B, NO in caso contrario.
+
+Esercizio 3, Gara Rotary 2006:
+ 	Multipli di 5: Scrivere un programma per macchina di Turing che, ricevuto in 	ingresso un numero decimale, lasci sul nastro SI se il numero in questione e' un 	multiplo di 5, NO altrimenti.
+
+
+Esercizi "Avanzati"
+
+Esercizio 1, Gara V
+	Programmare una macchina di Turing che, dato un nastro iniziale contenente una 	sequenza arbitraria di simboli A e B, sostituisca ogni occorrenza di due simboli 	consecutivi AB con due simboli CD. 
+
+
+
+In aggiunta, si propone un esercizio leggermente "diverso" da quelli svolti al corso durante la prima lezione ma che richiede anch'esso conoscenze elementari:
+
+Esercizio 1, Gara X 
+	Nei sistemi di numerazione posizionale, il valore denotato da un numero è ottenuto moltiplicando ogni cifra per la corrispondente potenza di una base. Nel caso della notazione decimale, la base è 10; la cifra più a destra è moltiplicata per 100=1, quella successiva per 101=10, la terza da destra per 102=100, e così via. Nella numerazione con base 1 (unaria), ciascuna cifra (si usa il carattere "1" per convenzione) viene moltiplicata per 1n=1, qualunque sia n. Per esempio, 1210 = 1111111111111. Si noti che lo 0 si esprime in unario con l'assenza completa del numero. Si scriva un programma per Macchina di Turing che, ricevuta sul nastro una addizione unaria (composta da due numeri unari separati da "+"), lasci sul nastro il risultato dell'addizione, sempre espresso in unario.
