@@ -1,0 +1,42 @@
+*Degli esercizi tratti dal sito (http://mdt.di.unipi.it/default.aspx) della gara nazionale dell'Università di Pisa si riportano solo il nome e il testo dei singoli esercizi, per gli esempi di input/output si faccia riferimento all'indice dei testi(http://mdt.di.unipi.it/TestiGara/IndiceTesti.aspx)
+*Per spiegazioni, suggerimenti, correzioni, ect.: califano.federico96@gmail.com
+
+
+Si propongono alcuni esercizi per la sezione online del corso, siete comunque liberi di chiedere sostegno su qualsiasi altro esercizio ai contatti che vi abbiamo fornito.
+*In questo documento non verranno riportati gli esercizi della Gara Rotary 2006 (http://mdt.di.unipi.it/TestiGara/Rotary2006Edizione.aspx), alcuni dei quali sono già stati affrontati al corso e che sono tutti "più o meno" risolvibili con la preparazione che è stata fornita al corso.
+
+
+
+
+Esercizi di medio-bassa difficoltà
+
+Esercizio 2, Gara XII Inversione [Punti 5]. Si scriva un programma per macchina di Turing che, ricevuta in ingresso sul nastro una stringa sull'alfabeto {H, O, C} (attenzione: si tratta della lettera O, non della cifra 0), lasci sul nastro alla fine della computazione la stessa stringa, ma scritta in ordine inverso.
+
+Esercizio 3, Gara XII Completezza [Punti 4]. Si scriva un programma per macchina di Turing che, ricevuta in ingresso sul nastro una stringa sull'alfabeto {H, O, C}, lasci sul nastro la scritta SI se la stringa in ingresso conteneva ciascuno dei caratteri dell'alfabeto almeno una volta (la stringa in questo caso si dice completa rispetto all'alfabeto), NO in caso contrario.
+
+Esercizi di media difficoltà
+Esercizio 3: Calcolo dell'affluenza. [Punti 5] Si scriva un programma per macchina di Turing che, ricevuto in ingresso una configurazione di seggio (ben ordinato o meno), lasci sul nastro un numero decimale rappresentante il numero totale di elettori presenti nella configurazione.
+
+
+
+
+Esercizi di medio-alta difficoltà
+
+Esercizio 4, Gara XVII Caccia ai brogli! [Punti 7] Nel Mondo dei Programmatori il partito dei Programmatori C Indipendenti (il partito 0) ha fiducia assoluta nella fedeltà del proprio elettorato, e avendo ottenuto alle scorse elezioni meno voti di quelli previsti, sospetta che i partiti avversari abbiano trovato il modo di alterare il conteggio delle schede. Si scriva un programma per macchina di Turing che, ricevuto in ingresso una sequenza di schede, ciascuna indicata con un simbolo fra 0 e 3, seguita dal simbolo ':' e poi dal numero di voti attesi espresso in decimale, lasci sul nastro la scritta OK se la votazione appare regolare, KO se si ritiene di poter contestare il risultato.
+
+*(Si consiglia di rivolgere particolare attenzione all'esercizio seguente)
+Esercizio 6, Gara XVII Il Parlamento dei Programmatori. [Punti 11] Il Parlamento dei Programmatori si organizza in gruppi che fanno riferimento a uno dei 4 partiti. Come in altri  consessi si formano ipotetici raggruppamenti di “destra” e “sinistra”, in base a dove i parlamentari seggono, così nel Parlamento dei Programmatori (gente notoriamente amante dell'ordine) si usa avere i partiti disposti in ordine numerico crescente, con il partito 0 seduto all'estrema sinistra e il partito 3 all'estrema destra. Si scriva un programma per macchina di Turing che, data una sequenza di eletti (ciascuno rappresentato da un simbolo fra 0 e 3), faccia ordine e disponga i membri secondo l'ordine in cui essi siederanno in Parlamento, lasciando sul nastro la sequenza corrispondente.
+
+
+
+
+Esercizi di difficoltà alta
+
+*L'esercizio seguente è molto simile alla "Successione di Collatz" (Es.8, Gara XII) affrontato al corso.
+Esercizio 7, Gara XII: Successione di Fibonacci [Punti 15]. I numeri di Fibonacci sono definiti, per ricorrenza, dalla seguente equazione:
+
+ 	f(x) = 1, se x <= 2
+	
+	f(x) = f(x-1)+f(x-2), altrimenti
+
+La successione di Fibonacci è formata dai numeri di Fibonacci consecutivi, partendo da f(1) (si noti che ogni termine della successione dopo i primi due è dato dalla somma dei due termini precedenti). Si scriva un programma per macchina di Turing che, dato in ingresso un numero decimale n, lasci in uscita sul nastro i primi n termini della successione di Fibonacci, separati esattamente da uno spazio.
